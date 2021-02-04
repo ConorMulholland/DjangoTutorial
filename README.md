@@ -23,6 +23,10 @@ python manage.py shell
 Creating an admin user
 python manage.py createsuperuser
 ## Tutorial 3
+added views in views.py, put the new views in polls.url
+displayed the questions in views.py
+created templates index and detail
+made the app polls incase there is more than one app being created
 
 ## Tutorial 4
 
