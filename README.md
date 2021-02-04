@@ -13,6 +13,15 @@ python manage.py startapp polls
 ## Tutorial 2 
 creating any necessary tables
 python manage.py migrate
+made changes to the model in models.py
+create migrations for the changes
+python manage.py makemigrations polls
+apply the changes to the database
+python manage.py migrate
+start interactive shell
+python manage.py shell
+Creating an admin user
+python manage.py createsuperuser
 ## Tutorial 3
 
 ## Tutorial 4
