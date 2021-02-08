@@ -27,6 +27,7 @@ added views in views.py, put the new views in polls.url
 displayed the questions in views.py
 created templates index and detail
 made the app polls incase there is more than one app being created
+git commit -m "XX"
 
 ## Tutorial 4
 created ways to vote on the poll by altering the views.py and adding a new template results.html
