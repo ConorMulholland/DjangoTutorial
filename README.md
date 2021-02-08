@@ -30,5 +30,5 @@ made the app polls incase there is more than one app being created
 
 ## Tutorial 4
 created ways to vote on the poll by altering the views.py and adding a new template results.html
-removed old index,detail and results views and replaced with generic django views instead
+removed old index. detail and results views and replaced with generic django views instead
 ## Tutorial 5
