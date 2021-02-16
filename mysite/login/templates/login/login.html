@@ -1,13 +1,13 @@
 <h2>Log In</h2>
-<form action = "{% url 'login:index' %}" method="POST">
+<form action = "{% url 'login:myview' %}" method="POST">
     {% csrf_token%}
     <div>
         <label for="name">Username: </label>
-        <input type="text" name = "name">
+        <input type="text" name = "username">
     </div>
     <div>
         <label for = "email">Password: </label>
-        <input type="text" name="Password">
+        <input type="text" name="password">
     </div>
     <div>
         <input type="submit" value="Login">
